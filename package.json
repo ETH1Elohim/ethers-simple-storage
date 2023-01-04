@@ -9,5 +9,8 @@
   },
   "scripts": {
     "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.4"
   }
 }

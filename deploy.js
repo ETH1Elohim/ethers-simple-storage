@@ -3,6 +3,7 @@ const { readFileSync } = require("fs")
 const fs = require("fs-extra")
 require("dotenv").config()
 
+
 async function main() {
   // HTTP://172.21.160.1:7545
   // everything we need to interact with a smart contract: (connection to the blockchain, + wallet w/ private key)
